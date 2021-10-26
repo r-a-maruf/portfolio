@@ -1,0 +1,355 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+a,a:hover{
+	text-decoration: none;
+
+
+}
+.header{
+
+}
+nav{
+	background: #d1ac8d;
+}
+.header .navbar a{
+	padding-left: 45px;
+}
+.header .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 45px;
+}
+.header .navbar-nav .nav-item{
+	
+    padding: 0px 2px;
+}
+.header .navbar-nav .nav-item a{
+    font-size: 16px;
+	color: #000 !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.header .navbar-nav .nav-item a:hover{
+	color: #fff !important;
+	background: #e78947;
+
+}
+.carousel-item{
+	width: 100%;
+	position: relative;
+}
+.carousel-item img{
+	height: 400px;
+}
+.carousel-item .text{
+	position: absolute;
+	top: 45%;
+    left: 37%;
+}
+.carousel-item .text h3{
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+
+}
+.carousel-item .text p{
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+}
+/* about section  */
+.about-section{
+	padding: 50px 0px;
+	position: relative;
+}
+.about-section .left{
+	padding: 10px;
+}
+.about-section .left img{
+	max-width: 85%;
+}
+.about-section .right{
+    padding: 10px 5px;
+    background: #f9fafb;
+
+}
+.about-section .right h3{
+    font-size: 34px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-section .right h3 span{
+	position: absolute;
+	left: 692px;
+	top: 90px;
+	font-family: 'Montserrat', sans-serif;
+	color: #3c29290f;
+	font-size: 130px;
+	font-weight: 900;
+}
+.about-section .right h5{
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-bottom: 12px;
+}
+.about-section .right p{
+	font-size: 16px;
+	color: #000;
+
+}
+.about-section .right button{
+	padding: 8px 12px;
+	color: #fff;
+	background: #000;
+	text-transform: uppercase;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+.about-section .right button:hover{
+	color: #000;
+	background: #fff;
+	border: 2px solid #000;
+
+	transition: .5s ease-in-out;
+}
+
+/* service section */
+.service{
+	padding: 40px 0px;
+
+}
+.service .card{
+	border: none;
+}
+.service .card img{
+	height: 55px;
+	margin-top: 23px;
+}
+.service .card i{
+	font-size: 55px;
+	margin-top: 23px;
+}
+.service .card .card-body {
+	
+}
+.service .card .card-body h4{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.service .card .card-body p{
+	font-size: 16px;
+	line-height: 2;
+	color: #767676;
+	font-style: italic;
+}
+
+/* feature section */
+.feature{
+	padding: 60px 0px;
+	background: #f8f9fa;
+	position: relative;
+}
+.feature .upper{}
+.feature .upper h2 {
+	font-size: 34px;
+	padding-bottom: 43px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.feature .upper h2 span{
+	position: absolute;
+	left: 8%;
+	top: 0%;
+	font-family: 'Montserrat', sans-serif;
+	color: #3c29290f;
+	font-size: 130px;
+	font-weight: 900;
+}
+.feature .card img{
+	height: 354px;
+	transition: all linear .5s;
+}
+.feature .card .hidden{
+	overflow: hidden;
+
+}
+.feature .card img:hover{
+	transform: scale(1.1);
+}
+.feature .card .card-body span{
+	font-size: 16px;
+	color: #000 !important;
+	display: block;
+}
+
+/* news-section */
+ 
+.news-section{
+	padding: 60px 0px;
+	background: #f8f9fa;
+	position: relative;
+}
+
+.news-section .text h3 {
+	font-size: 34px;
+	padding-bottom: 43px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.news-section .text h3 span{
+	position: absolute;
+	left: 8%;
+	top: 0%;
+	font-family: 'Montserrat', sans-serif;
+	color: #3c29290f;
+	font-size: 130px;
+	font-weight: 900;
+}
+.news-section .card{
+	height: 390px !important;
+}
+.news-section .card img{
+	height: 270px;
+	transition: all linear .5s;
+}
+.news-section .card .hidden{
+	overflow: hidden;
+
+}
+.news-section .card img:hover{
+	transform: scale(1.1);
+}
+.news-section .card .card-body span{
+	font-size: 16px;
+	color: #000 !important;
+	display: block;
+}
+
+/* stay section */
+.stay{
+	padding: 44px 0px;
+	background: url('../img/stay.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.stay .inner{
+	text-align: center;
+}
+.stay .inner h2{
+	color: #fff;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: ;
+	font-weight: 700;
+
+
+}
+.stay .inner p{
+	color: #a7a8a8;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.stay .inner input{
+	color: #a7a8a8;
+	margin-bottom: 20px;
+	padding: 8px 155px 8px 12px;
+	font-size: 16px;
+	text-transform: capitalize;
+	background: transparent;
+	border: 1px solid #a7a8a8;
+}
+.stay .inner input:focus-visible{
+	outline: none !important;
+}
+.stay .inner textarea{
+	color: #a7a8a8;
+	margin-bottom: 20px;
+	padding: 8px 155px 8px 12px;
+	font-size: 16px;
+	text-transform: capitalize;
+	background: transparent;
+	border: 1px solid #a7a8a8;
+}
+.stay .inner textarea:focus-visible{
+	outline: none !important;
+}
+.stay-with .checkbox{
+	margin-left: 25%;
+}
+.stay-with .btn{
+	color: #fff;
+	float: right;
+	margin-right: 34%;
+	font-size: 15px;
+	background: transparent;
+	overflow: hidden;
+	padding: 5px 30px;
+	border: 1px solid #0099FF;
+}
+.stay-with .btn:hover{
+	color: #fff;
+	background: #0099FF;
+	border-radius: 5px;
+	transition: .5s;
+
+}
+.stay-with label{
+	color: #a7a8a8;
+}
+/* footer */
+footer {
+	padding: 20px 0px;
+	background: #202b40;
+}
+footer .footer-inner{}
+footer .footer-inner h4{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+footer .footer-inner p{
+	font-size: 12px;
+	color: #fff;
+	margin-top: 10px;
+	font-weight: 400;
+}
+footer .footer-inner ul{
+    padding: 0;
+
+}
+footer .footer-inner ul li{
+	list-style: none;
+}
+footer .footer-inner ul li a{
+    color: #fff;
+    text-transform: capitalize;
+}
+footer .social-icon{
+	padding-top: 36px;
+}
+footer .social-icon ul{
+	display: block;
+}
+footer .social-icon ul li{
+	display: inline-block;
+	padding: 1px 8px;
+}
+footer .social-icon ul li a{
+    font-size: 25px;
+    color: #fff;
+    transition: .5s;
+}
+footer .social-icon ul li a:hover{
+	color: #0e97a5;
+}
